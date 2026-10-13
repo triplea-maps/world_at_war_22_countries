@@ -1,5 +1,5 @@
-map_name: 22_country_world_at_war
+map_name: world_at_war_22_countries
 games:
-- game_name: 22 Country World At War
-  file_name: 22_Country_World_At_War.xml
+- game_name: World At War 22 Countries 
+  file_name: World_At_War_22_Countries.xml
 
