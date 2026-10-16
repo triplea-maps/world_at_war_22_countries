@@ -418,7 +418,7 @@
 		<territory name="Netherlands"/>
 		<territory name="Santiago"/>
 		<territory name="Munster"/>
-		<territory name="Volgograd"/>
+		<territory name="Uralsk"/>
 		<territory name="10 Sea Zone" water="true"/>
 		<territory name="21 Sea Zone" water="true"/>
 		<territory name="22 Sea Zone" water="true"/>
@@ -2062,11 +2062,11 @@
 		<connection t1="118 Sea Zone" t2="125 Sea Zone"/>
 		<connection t1="Southwest USA" t2="South Central USA"/>
 		<connection t1="Guadalcanal" t2="New Georgia"/>
-		<connection t1="Volgograd" t2="Kuybyshev"/>
-		<connection t1="Volgograd" t2="Astrakhan"/>
-		<connection t1="Volgograd" t2="Penza"/>
-		<connection t1="Volgograd" t2="Saratov"/>
-		<connection t1="Volgograd" t2="126 Sea Zone"/>
+		<connection t1="Uralsk" t2="Kuybyshev"/>
+		<connection t1="Uralsk" t2="Astrakhan"/>
+		<connection t1="Uralsk" t2="Penza"/>
+		<connection t1="Uralsk" t2="Saratov"/>
+		<connection t1="Uralsk" t2="126 Sea Zone"/>
 
 		<connection t1="104 Sea Zone" t2="97 Sea Zone"/>
 		<connection t1="104 Sea Zone" t2="117 Sea Zone"/>
@@ -4677,7 +4677,7 @@
 		<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
 		</attachment>
-		<attachment name="territoryAttachment" attachTo="Volgograd" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		<attachment name="territoryAttachment" attachTo="Uralsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Kursk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -8401,7 +8401,7 @@
 			<territoryOwner territory="Komi" owner="Russians"/>
 			<territoryOwner territory="Sverdlovsk" owner="Russians"/>
 			<territoryOwner territory="Kuybyshev" owner="Russians"/>
-			<territoryOwner territory="Volgograd" owner="Russians"/>
+			<territoryOwner territory="Uralsk" owner="Russians"/>
 			<territoryOwner territory="Kursk" owner="Russians"/>
 			<territoryOwner territory="Zhigansk" owner="Russians"/>
 			<territoryOwner territory="Khatanga" owner="Russians"/>
@@ -8815,7 +8815,7 @@
 			<unitPlacement unitType="AAGun" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Bomber" territory="Sverdlovsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Kuybyshev" quantity="1" owner="Russians"/>
-			<unitPlacement unitType="Artillery" territory="Volgograd" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Artillery" territory="Uralsk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Kursk" quantity="2" owner="Russians"/>
 			<unitPlacement unitType="Artillery" territory="Kursk" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="Infantry" territory="Zhigansk" quantity="1" owner="Russians"/>
@@ -9107,7 +9107,6 @@
 			<unitPlacement unitType="Bunker" territory="Assam" quantity="1" owner="India"/>
 			<unitPlacement unitType="Artillery" territory="Assam" quantity="1" owner="India"/>
 			<unitPlacement unitType="Infantry" territory="Vancouver" quantity="2" owner="British"/>
-			<unitPlacement unitType="Fighter" territory="Vancouver" quantity="1" owner="British"/>
 			<unitPlacement unitType="Factory" territory="Vancouver" quantity="1" owner="British"/>
 			<unitPlacement unitType="AAGun" territory="Vancouver" quantity="1" owner="British"/>
 			<unitPlacement unitType="Infantry" territory="Equatoria" quantity="1" owner="British"/>
@@ -9528,7 +9527,7 @@
 			<unitPlacement unitType="Destroyer" territory="74 Sea Zone" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="Transport" territory="80 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="80 Sea Zone" quantity="1" owner="British"/>
-			<unitPlacement unitType="Carrier" territory="80 Sea Zone" quantity="1" owner="British"/>
+			
 
 			<unitPlacement unitType="Transport" territory="60 Sea Zone" quantity="2" owner="India"/>
 			<unitPlacement unitType="Carrier" territory="60 Sea Zone" quantity="1" owner="India"/>
@@ -9649,8 +9648,8 @@
 
 			<unitPlacement unitType="Transport" territory="133 Sea Zone" quantity="1" owner="British"/>
 			<unitPlacement unitType="Destroyer" territory="114 Sea Zone" quantity="1" owner="British"/>
-			<unitPlacement unitType="Carrier" territory="114 Sea Zone" quantity="1" owner="British"/>
-			<unitPlacement unitType="Fighter" territory="Port Moresby" quantity="1" owner="British"/>
+			
+			
 
 
 			<unitPlacement unitType="Submarine" territory="123 Sea Zone" quantity="1" owner="Anzac"/>
@@ -9679,9 +9678,8 @@
 
 			<unitPlacement unitType="Fighter" territory="88 Sea Zone" quantity="4" owner="Yamamoto"/>
 			<unitPlacement unitType="Battleship" territory="88 Sea Zone" quantity="1" owner="Yamamoto"/>
-			<unitPlacement unitType="Destroyer" territory="88 Sea Zone" quantity="1" owner="Yamamoto"/>
 			<unitPlacement unitType="Carrier" territory="88 Sea Zone" quantity="2" owner="Yamamoto"/>
-			<unitPlacement unitType="Submarine" territory="88 Sea Zone" quantity="1" owner="Yamamoto"/>
+			<unitPlacement unitType="Submarine" territory="88 Sea Zone" quantity="2" owner="Yamamoto"/>
 			<unitPlacement unitType="Transport" territory="34 Sea Zone" quantity="1" owner="French"/>
 			<unitPlacement unitType="Submarine" territory="96 Sea Zone" quantity="1" owner="Yamamoto"/><!--
 			<unitPlacement unitType="Submarine" territory="72 Sea Zone" quantity="1" owner="Russians"/>-->
